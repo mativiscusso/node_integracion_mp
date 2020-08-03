@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1><%= title %></h1>
+
+
+  <div>
+    <h3>ALTO ARTICULO</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, soluta.</p>
+
+
+    <form method="POST">
+      <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+        data-preference-id='<%= global.id %>'>
+        </script>
+    </form>
+
+  </div>
+
+  </div>
+
+  <script src="/javascripts/main.js"></script>
+</body>
+
+</html>
